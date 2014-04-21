@@ -6,6 +6,8 @@ DRCameraView is a UIView subclass to display camera preview and take pictures or
 Usage
 ============
 
+DRCameraView can be installed from CocoaPods.
+
 
 Contact
 ============
