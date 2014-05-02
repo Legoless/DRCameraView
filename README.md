@@ -15,6 +15,11 @@ DRCameraView can be installed from CocoaPods.
 
 Contact
 ============
+Dal Rupnik
+
+- [legoless](https://github.com/legoless) on **GitHub**
+- [@thelegoless](https://twitter.com/thelegoless) on **Twitter**
+- [legoless@arvystate.net](mailto:legoless@arvystate.net)
 
 License
 ============
