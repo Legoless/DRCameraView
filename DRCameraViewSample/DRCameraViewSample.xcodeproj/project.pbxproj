@@ -24,6 +24,8 @@
 		389810D318EDBBF20011CCD7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389810B518EDBBF20011CCD7 /* UIKit.framework */; };
 		389810DB18EDBBF20011CCD7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 389810D918EDBBF20011CCD7 /* InfoPlist.strings */; };
 		389810DD18EDBBF20011CCD7 /* DRCameraViewSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 389810DC18EDBBF20011CCD7 /* DRCameraViewSampleTests.m */; };
+		67E64D51F4C34EFAB1E4ECEF /* DKShapeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E644D8869D417881D65006 /* DKShapeButton.m */; };
+		67E64F7DAEA3CC7D36D68CEA /* DKButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E64FAC0F2B0E3347467D20 /* DKButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +64,10 @@
 		389810D818EDBBF20011CCD7 /* DRCameraViewSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DRCameraViewSampleTests-Info.plist"; sourceTree = "<group>"; };
 		389810DA18EDBBF20011CCD7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		389810DC18EDBBF20011CCD7 /* DRCameraViewSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRCameraViewSampleTests.m; sourceTree = "<group>"; };
+		67E64404DB6A16ADBA128A05 /* DKButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKButton.h; sourceTree = "<group>"; };
+		67E644D8869D417881D65006 /* DKShapeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKShapeButton.m; sourceTree = "<group>"; };
+		67E64C4A99909E3B189A9436 /* DKShapeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKShapeButton.h; sourceTree = "<group>"; };
+		67E64FAC0F2B0E3347467D20 /* DKButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,7 @@
 				3818633418EDBCFB0040E0A8 /* DRCameraView.m */,
 				38870F2E1906E3DD006F5BB7 /* UIView+DRCameraView.h */,
 				38870F2F1906E3DD006F5BB7 /* UIView+DRCameraView.m */,
+				67E6423216B44C44E519C539 /* DesignKit */,
 			);
 			name = DRCameraView;
 			path = ../DRCameraView;
@@ -182,6 +189,17 @@
 				389810D918EDBBF20011CCD7 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		67E6423216B44C44E519C539 /* DesignKit */ = {
+			isa = PBXGroup;
+			children = (
+				67E64FAC0F2B0E3347467D20 /* DKButton.m */,
+				67E64404DB6A16ADBA128A05 /* DKButton.h */,
+				67E644D8869D417881D65006 /* DKShapeButton.m */,
+				67E64C4A99909E3B189A9436 /* DKShapeButton.h */,
+			);
+			path = DesignKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,6 +306,8 @@
 				389810BE18EDBBF20011CCD7 /* main.m in Sources */,
 				3818633518EDBCFB0040E0A8 /* DRCameraView.m in Sources */,
 				38870F331906ED8C006F5BB7 /* DRCameraInterfaceView.m in Sources */,
+				67E64F7DAEA3CC7D36D68CEA /* DKButton.m in Sources */,
+				67E64D51F4C34EFAB1E4ECEF /* DKShapeButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

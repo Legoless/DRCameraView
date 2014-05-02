@@ -12,6 +12,10 @@
 
 @property (nonatomic, getter = shouldShowPhotoCorners) BOOL showPhotoCorners;
 @property (nonatomic, getter = shouldShowCenterMask) BOOL showCenterMask;
+
+/*!
+ * Shows current camera settings below image (only in horizontal mode)
+ */
 @property (nonatomic, getter = shouldShowSettingsLabel) BOOL showSettingsLabel;
 
 /*!
