@@ -5,7 +5,7 @@ DRCameraView is a UIView subclass to display camera preview and take pictures or
 
 It includes fully custom camera interface which can be additionally customised by several properties.
 
-Or setup your own camera interface with either a view from Storyboard or in code.
+Or setup your own camera interface with either a view from Storyboard or in code and use all camera functionalities.
 
 Usage
 ============
