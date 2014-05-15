@@ -9,6 +9,8 @@ Or setup your own camera interface with either a view from Storyboard or in code
 
 Video functionality is currently not supported, but will be in future releases of the library.
 
+DRCameraView is built on top of DesignKit and also serves as a sample project for it.
+
 Usage
 ============
 
