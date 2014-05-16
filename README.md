@@ -16,7 +16,9 @@ Usage
 
 DRCameraView can be installed from CocoaPods.
 
-pod DRCameraView
+`pod DRCameraView`
+
+Or you can drag and drop DRCameraView folder into your project.
 
 
 Contact
